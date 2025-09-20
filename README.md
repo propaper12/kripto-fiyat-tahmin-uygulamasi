@@ -14,3 +14,4 @@ Esnek Veri Çekimi: Belirlenen kripto para için farklı zaman dilimlerinde (gü
 Gelişmiş Görselleştirme: Geçmiş fiyat hareketlerini, tahminleri ve zaman serisi analiz grafiklerini (ACF, PACF) net bir şekilde sunar.
 
 Performans Analizi: Eğitilen her modelin RMSE, MAE ve R2 Skoru gibi performans metriklerini anında gösterir.
+https://kripto-fiyat-tahmin-uygulamasi-xann46irjmdsgsgtmuc6zy.streamlit.app/
