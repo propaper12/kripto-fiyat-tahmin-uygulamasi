@@ -335,7 +335,7 @@ else:
     default_index = 0
 st.session_state.selected_name = st.sidebar.selectbox("Kripto Para Seçin", sorted_coin_names, index=default_index)
 crypto_symbol = top_100_coins.get(st.session_state.selected_name)
-time_frame = st.sidebar.radio("Veri Periyodunu Seçin", ["gün", "saat", "dakika"])
+time_frame = st.sidebar.radio("Veri Periyodunu Seçin", ["day", "hour", "minute"])
 if time_frame == 'day':
     limit = st.sidebar.number_input("Kaç günlük veri istersiniz?", min_value=1, max_value=2000, value=1825)
     forecast_steps = st.sidebar.number_input("Kaç günlük tahmin istersiniz?", min_value=1, max_value=30, value=7)
@@ -385,3 +385,4 @@ if st.button("Analiz ve Tahmin Yap"):
         else:
 
             st.error("Veri çekilemedi. Lütfen ayarları kontrol edin.")
+
