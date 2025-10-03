@@ -1,5 +1,3 @@
-Daha profesyonel ve ilgi çekici bir README dosyası için, projenin en önemli yönlerini vurgulayan, markdown formatlı ve estetik olarak göze hoş gelen bir metin hazırlayabiliriz. İşte sana projen için özel olarak tasarlanmış, GitHub README'ye uygun bir taslak:
-
 📈 Kripto Para Fiyat Tahmin Uygulaması
 Bu proje, Streamlit tabanlı, kullanıcıların kripto para fiyatlarını çeşitli makine öğrenmesi ve derin öğrenme modelleriyle tahmin etmelerini sağlayan kapsamlı bir araçtır.
 
